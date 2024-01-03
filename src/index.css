@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   margin: 0;
   padding: 0;
@@ -39,11 +39,7 @@ a {
   width: 100% !important;
 }
 
-.search-bar{
-  border:none;
-  outline:none;
-  width:350px;
-}
+
 
 .category-btn{
   font-weight: bold !important;
@@ -85,4 +81,11 @@ a {
   .search-bar{
     width:200px;
   }
+
+} */
+
+.search-bar{
+  border:none;
+  outline:none;
+  width:350px;
 }
