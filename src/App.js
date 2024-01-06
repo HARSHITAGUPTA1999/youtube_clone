@@ -9,7 +9,7 @@ import SearchFeed from "./components/SearchFeed";
 function App() {
   return (
     <BrowserRouter>
-      <Box sx={{ border: "4px solid red" }}>
+      <Box sx={{ border: "4px solid black" }}>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Homepage />} />

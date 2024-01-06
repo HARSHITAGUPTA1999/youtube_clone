@@ -6,7 +6,9 @@ import { logo } from '../utils/constants'
 
 function Navbar() {
   return (
-    <Stack direction="row" alignItems="center" justifyContent="space-between" p={2}>
+    <Stack direction="row" alignItems="center" justifyContent="space-between" p={2}
+    sx={{border: '2px solid red'}}
+    >
         <Link to='/'>
             <img src={logo} alt="homepage logo" height="45"/>
         </Link>
