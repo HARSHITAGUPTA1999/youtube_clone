@@ -15,7 +15,7 @@ function App() {
           <Route path="/" exact element={<Homepage />} />
           <Route path="/videoDetails/:id" exact element={<VideoDetails />} />
           <Route path="/channelDetails/:id" exact element={<ChannelDetails />} />
-          <Route path="/searchFeed/:searchterm" exact element={<SearchFeed/>} />
+          <Route path="/searchFeed/:searchTerm" exact element={<SearchFeed/>} />
         </Routes>
       </Box>
     </BrowserRouter>

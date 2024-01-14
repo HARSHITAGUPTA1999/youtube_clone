@@ -11,7 +11,7 @@ const [allChannelVideos, setallChannelVideos] = useState([]);
 
   useEffect(() => {
    //channel details data
-    //     getDataFromApi(`videos?part=snippet&id=${id}`).then((data)=>{
+    //     getDataFromApi(`channels?part=snippet&id=${id}`).then((data)=>{
     //       console.log("data",data);
     //     }
     setchannelDetails(channelDetailsMockData?.items?.[0]);
