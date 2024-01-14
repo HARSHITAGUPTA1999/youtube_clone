@@ -31,7 +31,7 @@ function Homepage() {
         <h2>
           <span style={{ color: "red" }}>{selectedCategory}</span> Videos
         </h2>
-        <VideosFeed videos={videosData} />
+        <VideosFeed videos={videosData} direction='row'/>
       </Box>
      
     </Stack>
